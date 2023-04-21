@@ -8,22 +8,49 @@
   background: white;
   width: 100%;
   height: 70px;
-  box-shadow: 0px 3px 0px 0px gainsboro; }
+  border-bottom: 2px solid  #f7f9fa; }
 
 .content-head {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  padding-top: 10px;
   align-items: center; }
 
 .head-text {
   font-size: 13px; }
 
 .head-inp__inp {
-  width: 700px;
+  width: 750px;
   height: 40px;
   border: 1px solid black;
   background: #f7f9fa;
   border-radius: 50px;
-  padding-left: 20px; }
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: sans-serif; }
+
+.button__btn {
+  width: 100px;
+  height: 40px;
+  background: white;
+  border: 1px solid black;
+  font-size: 13px;
+  font-weight: bold; }
+
+.button__btn-black {
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  font-size: 14px;
+  font-weight: bold; }
+
+.img {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
