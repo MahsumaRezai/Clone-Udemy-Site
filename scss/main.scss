@@ -2,6 +2,8 @@
     padding: 0%;
     margin:0%;
     box-sizing: border-box;
+    font-family: sans-serif;
+
 }
 .head{
     background:white;
@@ -17,4 +19,21 @@
     padding-top: 10px;
     align-items: center;
     
+}
+.head-text {
+    font-size: 13px;
+
+}
+.head-inp{
+    &__inp {
+        width: 700px;
+        height: 40px;
+        border: 1px solid black ;
+        background: #f7f9fa;
+        border-radius: 50px;
+        padding-left: 20px;
+        font-size: 15px;
+        font-family: sans-serif;
+
+    }
 }
