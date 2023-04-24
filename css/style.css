@@ -54,3 +54,20 @@
   flex-direction: row;
   justify-content: center;
   align-items: center; }
+
+.content-back {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.img-back {
+  background-image: url("../imag/one_img.jpg");
+  width: 85%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .img-back__con {
+    width: 50px;
+    height: 20px;
+    background: red; }
