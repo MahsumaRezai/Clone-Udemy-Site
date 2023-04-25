@@ -127,3 +127,13 @@
   font-family: sans-serif;
   color: gray;
   font-weight: bold; }
+
+.program {
+  width: 80%;
+  height: 500px;
+  border: 1px  solid silver;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto; }
