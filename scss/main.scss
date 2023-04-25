@@ -118,8 +118,6 @@
             width: 150px;
             height: 40px;
             background:  black;
-    
-
         }
         &__link {
             color: white;
@@ -129,4 +127,26 @@
         }
     
     }
+}
+// section three
+.text-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    &__text{
+        padding-top: 50px;
+
+    }
+    &__head {
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        
+    }
+
+    
+
+   
 }

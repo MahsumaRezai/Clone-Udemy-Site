@@ -99,3 +99,16 @@
     font-size: 14px;
     font-weight: bold;
     font-family: sans-serif; }
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; }
+  .text-section__text {
+    padding-top: 50px; }
+  .text-section__head {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black; }
