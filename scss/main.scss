@@ -196,4 +196,18 @@
         line-height: 1.625;
 
     }
+    &__btn {
+        width: 120px;
+        height: 40px;
+        background: white;
+        border:  1px solid green;
+
+
+    }
+    &__link {
+        font-family: sans-serif;
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
 }
