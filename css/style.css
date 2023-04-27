@@ -163,3 +163,15 @@
     color: black;
     font-weight: bold;
     font-size: 15px; }
+
+.img-section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; }
+
+.images {
+  display: flex;
+  flex-direction: column; }
