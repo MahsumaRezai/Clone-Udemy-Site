@@ -285,7 +285,22 @@
     flex-direction: column;
     justify-content: start;
     gap: 10px;
-    padding: 20px;
+    padding: 20px; 
+   
+}
+.produt--conetn {
+    line-height: 1.200;
+    &__text {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+
+    }
+    &__para {
+        font-size: 15px;
+
+    }
+
 }
 .pro-img {
     display: flex;
