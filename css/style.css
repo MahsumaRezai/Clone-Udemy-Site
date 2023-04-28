@@ -221,8 +221,7 @@
 .produt-conetn {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
   gap: 10px;
   padding: 20px; }
 
