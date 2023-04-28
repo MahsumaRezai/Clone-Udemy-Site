@@ -130,7 +130,7 @@
 
 .program {
   width: 80%;
-  height: 500px;
+  height: 600px;
   border: 1px  solid silver;
   display: flex;
   flex-direction: column;
@@ -170,8 +170,24 @@
   padding-top: 20px;
   justify-content: center;
   align-items: center;
-  gap: 10px; }
+  gap: 17px; }
 
 .images {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  gap: 10px; }
+  .images__para {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold; }
+  .images__link {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: gray; }
+  .images__text {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold; }
+
+#img {
+  border: 1px solid gainsboro; }
