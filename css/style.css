@@ -191,3 +191,8 @@
 
 #img {
   border: 1px solid gainsboro; }
+
+.product {
+  background: #f7f9fa;
+  width: 100%;
+  height: 300px; }
