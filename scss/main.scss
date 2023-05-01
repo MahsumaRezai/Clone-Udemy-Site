@@ -275,7 +275,7 @@
     gap: 20px;
     &__cart {
         width: 400px;
-        height: 300px;
+        height: 350px;
         border: 1px solid gainsboro;
         background: white;
     }
@@ -330,10 +330,55 @@
              color: white;
              font-family: sans-serif;
              font-weight: bold;
-
-
-
+             font-size: 14px;
+             font-family: sans-serif;
+             font-weight: bold;
         }
 
+    }
+    &__log-two {
+        &__text {
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+}
+.line  {
+    width: 300px;
+    background: gainsboro;
+    height: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+// link-log 
+.link-log {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    &__log {
+        width: 40px;
+        height: 30px;
+        background: #5624d0;
+        border:  1px solid #5624d0;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        &__text {
+            font-size: 10px;
+            width: 10px;
+            height: 10px;
+            background: white;
+        }
     }
 }
