@@ -382,3 +382,14 @@
         }
     }
 }
+// section image-loges
+.image-loges {
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 700px;
+
+}
