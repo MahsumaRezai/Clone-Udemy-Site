@@ -324,7 +324,7 @@
     justify-content: center;
     align-items: center;
     gap: 200px;
-    padding-top: 100px; }
+    padding-top: 50px; }
   .Featured__sub {
     display: flex;
     flex-direction: column;
@@ -348,3 +348,10 @@
   color: gray;
   font-size: 15px;
   font-family: sans-serif; }
+
+.head-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 200px;
+  padding-top: 30px; }
