@@ -337,3 +337,14 @@
 .head-text {
   font-family: sans-serif;
   font-size: 20px; }
+
+.link {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #5624d0;
+  font-weight: bold; }
+
+.number {
+  color: gray;
+  font-size: 15px;
+  font-family: sans-serif; }
