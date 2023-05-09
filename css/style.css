@@ -444,3 +444,40 @@
     font-family: sans-serif;
     font-size: 15px;
     font-weight: bold; }
+
+.skills {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 100px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 600px;
+  justify-items: center; }
+
+.skill-infom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; }
+
+.skill-section-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2px; }
+  .skill-section-text__txt {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: SuisseWorks,Georgia,Times,'Times New Roman',serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; }
+
+.skill-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .skill-head__text {
+    font-family: SuisseWorks,Georgia,Times,'Times New Roman',serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    word-spacing: 1.625; }
