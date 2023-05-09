@@ -394,7 +394,7 @@
   align-items: center; }
   .business__cart {
     width: 50%;
-    height: 300px;
+    height: 320px;
     background: white;
     border: 1px solid gainsboro; }
 
@@ -431,3 +431,16 @@
     width: 120px;
     height: 120px;
     border-radius: 120px; }
+
+.cart-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px; }
+  .cart-text__tex {
+    line-height: 1.500; }
+  .cart-text__link {
+    color: #5624d0;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold; }
