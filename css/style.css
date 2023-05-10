@@ -446,38 +446,43 @@
     font-weight: bold; }
 
 .skills {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  gap: 100px;
-  grid-template-columns: repeat(2, 1fr);
-  width: 100%;
-  height: 600px;
-  justify-items: center; }
-
-.skill-infom {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px; }
-
-.skill-section-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2px; }
-  .skill-section-text__txt {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: SuisseWorks,Georgia,Times,'Times New Roman',serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; }
+  width: 100%;
+  height: 600px;
+  gap: 200px; }
 
-.skill-head {
+.skill-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; }
+
+.skill-img__img {
+  width: 400px;
+  height: 400px; }
+
+.dit {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: black; }
+
+.text-skill {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 30px; }
+
+.text-deltial {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
   align-items: center; }
-  .skill-head__text {
-    font-family: SuisseWorks,Georgia,Times,'Times New Roman',serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
-    word-spacing: 1.625; }
+
+.para {
+  line-height: 1.625;
+  font-family: sans-serif;
+  font-size: 17px; }
