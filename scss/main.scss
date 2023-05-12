@@ -648,12 +648,32 @@
         font-weight: bold;
     }
 }
-// subject
-.subject {
+// footer 
+.footer {
+    background: #1c1d1f;
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
+
+.footer-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
-    gap: 200px;
-    width: 100%;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 100px;
+
+    &__text {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 14px;
+
+
+
+    }
+
 }
