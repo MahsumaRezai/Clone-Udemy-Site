@@ -1,0 +1,31 @@
+.head{
+    background:white;
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid  #f7f9fa;
+
+}
+.content-head {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    
+}
+.head-text {
+    font-size: 13px;
+
+}
+.head-inp{
+    &__inp {
+        width: 750px;
+        height: 45px;
+        border: 1px solid black ;
+        background: #f7f9fa;
+        border-radius: 50px;
+        padding-left: 20px;
+        font-size: 15px;
+        font-family: sans-serif;
+
+    }
+}

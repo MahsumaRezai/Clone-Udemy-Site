@@ -1,0 +1,57 @@
+
+// product
+.product {
+    background: #f7f9fa;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__text {
+        font-family: sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+}
+.product-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    &__cart {
+        width: 400px;
+        height: 350px;
+        border: 1px solid gainsboro;
+        background: white;
+    }
+}
+.produt-conetn {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    padding: 20px; 
+   
+}
+.produt--conetn {
+    line-height: 1.200;
+    &__text {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+
+    }
+    &__para {
+        font-size: 15px;
+
+    }
+
+}
+.pro-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
